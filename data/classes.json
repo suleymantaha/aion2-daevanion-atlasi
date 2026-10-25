@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "classes": [
+    {
+      "slug": "gladiator",
+      "label": "Gladiator",
+      "path": "data/gladiator.json",
+      "status": "verified",
+      "sourceUrl": "https://aion2data.com/daevanion/gladiator",
+      "version": "2026.10.21",
+      "nodeCount": 690,
+      "skillNodeCount": 88
+    },
+    {
+      "slug": "templar",
+      "label": "Templar",
+      "path": "data/templar.json",
+      "status": "verified",
+      "sourceUrl": "https://aion2data.com/daevanion/templar",
+      "version": "2026.10.21",
+      "nodeCount": 690,
+      "skillNodeCount": 88
+    },
+    {
+      "slug": "assassin",
+      "label": "Assassin",
+      "path": "data/assassin.json",
+      "status": "verified",
+      "sourceUrl": "https://aion2data.com/daevanion/assassin",
+      "version": "2026.10.21",
+      "nodeCount": 690,
+      "skillNodeCount": 88
+    },
+    {
+      "slug": "ranger",
+      "label": "Ranger",
+      "path": "data/ranger.json",
+      "status": "verified",
+      "sourceUrl": "https://aion2data.com/daevanion/ranger",
+      "version": "2026.10.21",
+      "nodeCount": 690,
+      "skillNodeCount": 88
+    },
+    {
+      "slug": "sorcerer",
+      "label": "Sorcerer",
+      "path": "data/sorcerer.json",
+      "status": "verified",
+      "sourceUrl": "https://aion2data.com/daevanion/sorcerer",
+      "version": "2026.10.21",
+      "nodeCount": 690,
+      "skillNodeCount": 88
+    },
+    {
+      "slug": "spiritmaster",
+      "label": "Spiritmaster",
+      "path": "data/spiritmaster.json",
+      "status": "verified",
+      "sourceUrl": "https://aion2data.com/daevanion/spiritmaster",
+      "version": "2026.10.21",
+      "nodeCount": 690,
+      "skillNodeCount": 88
+    },
+    {
+      "slug": "cleric",
+      "label": "Cleric",
+      "path": "data/cleric.json",
+      "status": "verified",
+      "sourceUrl": "https://aion2data.com/daevanion/cleric",
+      "version": "2026.10.21",
+      "nodeCount": 690,
+      "skillNodeCount": 88
+    },
+    {
+      "slug": "chanter",
+      "label": "Chanter",
+      "path": "data/chanter.json",
+      "status": "verified",
+      "sourceUrl": "https://aion2data.com/daevanion/chanter",
+      "version": "2026.10.21",
+      "nodeCount": 690,
+      "skillNodeCount": 88
+    }
+  ],
+  "limitations": [
+    "Unofficial source extraction, crosschecked against the same source class skill catalog; not independently verified against the live game client.",
+    "Source snapshot version and regional availability may differ from a player server.",
+    "No explicit redistribution license for source game data was established. Code licensing does not relicense game data.",
+    "Board adjacency is not present in the extracted schema. Orthogonal proximity is an inference, not a verified game rule.",
+    "A shortest route is not an independently verified best build."
+  ]
+}

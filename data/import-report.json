@@ -1,0 +1,32 @@
+{
+  "retrievedAt": "2026-10-25T15:56:28.318Z",
+  "directoryUrl": "https://aion2data.com/daevanion",
+  "discovered": [
+    "gladiator",
+    "templar",
+    "assassin",
+    "ranger",
+    "sorcerer",
+    "spiritmaster",
+    "cleric",
+    "chanter",
+    "brawler"
+  ],
+  "accepted": [
+    "gladiator",
+    "templar",
+    "assassin",
+    "ranger",
+    "sorcerer",
+    "spiritmaster",
+    "cleric",
+    "chanter"
+  ],
+  "rejected": [
+    {
+      "slug": "brawler",
+      "reason": "Source Global class roster explicitly marks Brawler Not on Global and says it cannot be picked at character creation in the Global snapshot.",
+      "evidenceUrl": "https://aion2data.com/classes"
+    }
+  ]
+}

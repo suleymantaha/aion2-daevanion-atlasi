@@ -1,0 +1,14 @@
+{
+  "name": "aion2-daevanion-atlasi",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "repository": "https://github.com/suleymantaha/aion2-daevanion-atlasi",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test scripts/import-data.test.mjs && node tests/verify.cjs",
+    "check": "node --check app-data.js && node --check app.js && node --check scripts/build-site.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "build": "node scripts/build-site.mjs"
+  }
+}

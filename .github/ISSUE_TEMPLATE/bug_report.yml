@@ -1,0 +1,26 @@
+name: Hata veya veri düzeltmesi
+description: Tekrarlanabilir hata ve kaynakla desteklenen düzeltme bildirimi
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Sorun ve beklenen davranış
+    validations:
+      required: true
+  - type: input
+    id: class_board
+    attributes:
+      label: Sınıf, tahta ve node ID veya koordinat
+  - type: input
+    id: version
+    attributes:
+      label: Oyun bölgesi ve sürüm
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Kaynak veya kişisel bilgiler temizlenmiş ekran kanıtı
+      description: Veri düzeltmelerinde doğrudan kaynak bağlantısı ekleyin.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Tekrar oluşturma adımları ve tarayıcı
