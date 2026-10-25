@@ -40,16 +40,6 @@ npm test
 
 Kaynak erişimi değişirse importer güvenli biçimde hata vermelidir. Eksik skill adlarını, ID'leri veya sınıfları tahmin ederek tamamlamayın. Yeni veri için kaynağı, sürümü ve kontrol kanıtını PR'a ekleyin.
 
-## Dağıtım
-
-`npm run build` yalnızca kamuya açık dosyaları `dist/` içine kopyalar. Cloudflare Pages için üretim dalı `main`; yayınlanacak klasör `dist/`.
-
-```sh
-wrangler pages deploy dist --project-name aion2-daevanion-atlasi --branch main
-```
-
-Cloudflare hesabınızdaki mevcut oturumu kullanın. Token, oturum dosyası veya kişisel yapılandırmayı bu depoya koymayın. PR kontrolleri otomatik çalışır; üretim yayını bakımcı tarafından yapılır.
-
 ## Lisans ve veri
 
 Uygulama kodu **MIT** lisanslıdır. Oyun verileri, skill adları ve diğer üçüncü taraf içerikleri bu lisansa dahil değildir. [DATA_NOTICE.md](DATA_NOTICE.md) ve [Aion2Data kaynak koşulları](https://aion2data.com/creators) geçerlidir. Oyun görselleri bu depoda dağıtılmaz. Bu proje NCSOFT ile bağlantılı değildir.
